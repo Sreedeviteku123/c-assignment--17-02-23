@@ -1,0 +1,14 @@
+//factorial
+#include<stdio.h>
+main()
+{
+	int a,b,multi=1;
+	scanf("%d",&a);
+	b=1;
+	while(b<=a)
+	{
+		multi=multi*b;
+		b++;
+	}
+	printf("\n%d is the factorial",multi);
+}
